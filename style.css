@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  min-height: 100vh;
+  width: 100vw;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+}
+#signup-section {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 100vw;
+  height: 100vh;
+}
+#image-section {
+  background-image: url("assets/halie-west-25xggax4bSA-unsplash.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  flex-shrink: 0;
+}
+#logo-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  align-items: center;
+  height: 150px;
+  font-size: 60px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+#header-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5vw 10vw 0 10vw;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 30vh;
+  font-size: 24px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#form-fieldset {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
