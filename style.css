@@ -50,21 +50,58 @@ body {
   align-items: center;
   justify-content: center;
   padding: 5vw 10vw 0 10vw;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.05);
   text-align: center;
   height: 30vh;
   font-size: 24px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 #form-fieldset {
+  margin: 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-self: stretch;
+  border: 0;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+legend {
+  padding: 0;
+  margin: 0;
 }
 form {
   display: flex;
   flex-direction: column;
+}
+form input {
+  box-sizing: border-box;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1.5px solid rgba(0, 0, 0, 0.2);
+  margin: 0px 20px 10px 20px;
+}
+input::placeholder {
+  color: transparent;
+}
+form input:focus {
+  border: 1.5px solid blue;
+}
+input:focus::placeholder {
+  color: rgba(0, 0, 0, 0.2);
+}
+form input:invalid {
+  border: 1.5px solid red;
+}
+form label {
+  margin: 0px 20px 0px 20px;
+}
+button {
+  margin: 20px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1.5px solid rgba(0, 0, 0, 0.2);
+  color: aliceblue;
+  background-color: #596d48;
 }
